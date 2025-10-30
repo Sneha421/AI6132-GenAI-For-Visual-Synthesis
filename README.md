@@ -21,3 +21,14 @@ Current plan:
 3. Compare CLIP - This is mainly used for text to image similarity. Is your generated image matching the t instructions that you gave
     1.  FID, CLIP & LPIPS for GT image and generated makeup image similarity
 
+### Task Split
+| Task | Person |
+| ----------- | ----------- |
+| ControlNet + CLIP for text image + CLIP for image-image | Hedi |
+| InstructPix2Pix + LPIPS + FID | Xinyang |
+| LLava + Scripting for BeautyBank and FFHQ-makeup | Sneha |
+| Another VLT + Scripting for BeautyBank and FFHQ-makeup | Deng | 
+
+### Instructions
+Everyone create a branch with your name and upload your code
+
