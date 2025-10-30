@@ -8,5 +8,5 @@ https://huggingface.co/datasets/cyberagent/FFHQ-Makeup)
 https://huggingface.co/datasets/lulululululululululu/Bare-Makeup-Synthesis-Dataset)
 3. Face-MakeUp: Multimodal Facial Prompts for Text-to-Image Generation
 https://arxiv.org/pdf/2501.02523
-InstructPix2Pix
+4. InstructPix2Pix
 https://arxiv.org/abs/2312.04780
