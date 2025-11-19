@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Enhanced Evaluation with:
-- CLIP Text-Image Score
-- CLIP Image Similarity vs BARE face (identity preservation)
-"""
 
 import torch
 import torch.nn.functional as F
@@ -19,6 +14,17 @@ import sys
 
 sys.path.append(str(Path(__file__).parent.parent))
 
+caption_transformed = "Multi-Style ControlNet for FFHQ Makeup Transfer with multi-scale feature extraction"
+
+PROMPT_DATASET = [
+    "A face with natural makeup",
+    "A face with glamorous makeup",
+    "A face with professional makeup",
+    "A face with subtle everyday makeup",
+    "A face with bold dramatic makeup",
+    "A face with elegant evening makeup"
+]
+
 class CLIPEvaluator:
     def __init__(self, model_name="openai/clip-vit-base-patch32", device="cuda"):
         self.device = device
@@ -29,7 +35,6 @@ class CLIPEvaluator:
         print("CLIP model loaded")
         
     def compute_text_image_score(self, images, texts):
-        """CLIP score: text-image similarity (0-100)"""
         inputs = self.processor(
             text=texts,
             images=images,
@@ -50,7 +55,6 @@ class CLIPEvaluator:
         return clip_score.cpu().numpy()
     
     def compute_image_similarity(self, images1, images2):
-        """CLIP image similarity vs bare face (identity preservation)"""
         inputs1 = self.processor(images=images1, return_tensors="pt").to(self.device)
         inputs2 = self.processor(images=images2, return_tensors="pt").to(self.device)
         
@@ -67,38 +71,28 @@ class CLIPEvaluator:
         return similarity_score.cpu().numpy()
 
 def load_samples_with_bare(data_dir, generated_dir, num_samples=100):
-    """Load generated images and their corresponding bare faces"""
     data_dir = Path(data_dir)
     generated_dir = Path(generated_dir)
     
     samples = []
     
-    # Get all generated images
     generated_files = sorted(generated_dir.glob("*.png"))[:num_samples]
     
     print(f"Loading samples from {generated_dir}")
     for gen_file in tqdm(generated_files, desc="Loading"):
-        # Extract ID from filename (e.g., sample_0001_prompt1.png -> 0001)
         filename = gen_file.stem
         img_id = filename.split('_')[1] if len(filename.split('_')) > 1 else filename[:4]
         
-        # Find corresponding bare face
         bare_dir = data_dir / "bare"
         bare_files = list(bare_dir.glob(f"{img_id}_bare_*.jpg"))
         
         if bare_files:
-            # Extract prompt from filename if exists
             if "prompt" in filename:
                 prompt_num = filename.split("prompt")[-1].replace(".png", "")
-                prompts = [
-                    "A face with natural makeup",
-                    "A face with glamorous makeup", 
-                    "A face with professional makeup"
-                ]
                 prompt_idx = int(prompt_num) - 1 if prompt_num.isdigit() else 0
-                prompt = prompts[prompt_idx] if prompt_idx < len(prompts) else prompts[0]
+                prompt = PROMPT_DATASET[prompt_idx] if prompt_idx < len(PROMPT_DATASET) else PROMPT_DATASET[0]
             else:
-                prompt = "A face with professional makeup"
+                prompt = PROMPT_DATASET[2]
             
             samples.append({
                 'id': img_id,
@@ -111,34 +105,31 @@ def load_samples_with_bare(data_dir, generated_dir, num_samples=100):
     return samples
 
 def evaluate_model(generated_dir, data_dir, output_dir, num_samples=100, device="cuda"):
-    """Evaluate generated images vs bare faces"""
-    
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
     clip_eval = CLIPEvaluator(device=device)
     
-    # Load samples
     samples = load_samples_with_bare(data_dir, generated_dir, num_samples)
     print(f"\nLoaded {len(samples)} samples with bare faces")
     
     results = {
+        'caption_transformed': caption_transformed,
+        'prompt_dataset': PROMPT_DATASET,
         'generated_dir': str(generated_dir),
         'num_samples': len(samples),
         'clip_text_image_scores': [],
-        'clip_bare_similarity_scores': [],  # Identity preservation
+        'clip_bare_similarity_scores': [],
         'samples': []
     }
     
     print("\nEvaluating...")
     for sample in tqdm(samples, desc="Evaluating"):
-        # 1. CLIP Text-Image Score
         text_image_score = clip_eval.compute_text_image_score(
             images=[sample['generated']],
             texts=[sample['prompt']]
         )[0]
         
-        # 2. CLIP Similarity to BARE face (identity preservation)
         bare_similarity = clip_eval.compute_image_similarity(
             images1=[sample['bare_face']],
             images2=[sample['generated']]
@@ -155,16 +146,15 @@ def evaluate_model(generated_dir, data_dir, output_dir, num_samples=100, device=
             'clip_bare_similarity': float(bare_similarity)
         })
     
-    # Compute statistics
     results['mean_clip_text_image_score'] = float(np.mean(results['clip_text_image_scores']))
     results['std_clip_text_image_score'] = float(np.std(results['clip_text_image_scores']))
     results['mean_clip_bare_similarity'] = float(np.mean(results['clip_bare_similarity_scores']))
     results['std_clip_bare_similarity'] = float(np.std(results['clip_bare_similarity_scores']))
     
-    # Print summary
     print("\n" + "=" * 70)
     print("EVALUATION RESULTS")
     print("=" * 70)
+    print(f"Model: {caption_transformed}")
     print(f"Generated images: {generated_dir}")
     print(f"Samples: {len(samples)}")
     print(f"\nCLIP Text-Image Score (0-100, higher = better prompt alignment):")
@@ -175,7 +165,6 @@ def evaluate_model(generated_dir, data_dir, output_dir, num_samples=100, device=
     print(f"  Range: [{min(results['clip_bare_similarity_scores']):.2f}, {max(results['clip_bare_similarity_scores']):.2f}]")
     print("=" * 70)
     
-    # Save results
     results_file = output_dir / "evaluation_results_bare.json"
     with open(results_file, 'w') as f:
         json.dump(results, f, indent=2)
