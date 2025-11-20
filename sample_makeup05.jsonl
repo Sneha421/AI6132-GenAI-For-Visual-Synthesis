@@ -1,0 +1,96 @@
+{"instruction": "Apply pink lipstick, brown eyeshadow, and brown eyeliner", "input": "bare/00001_bare_000000.jpg", "target": "makeup_05/00001_makeup_05_000000.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00002_bare_000001.jpg", "target": "makeup_05/00002_makeup_05_000001.jpg"}
+{"instruction": "Add coral lipstick, brown eyeshadow, black eyeliner, and pink blush", "input": "bare/00003_bare_000002.jpg", "target": "makeup_05/00003_makeup_05_000002.jpg"}
+{"instruction": "Add dark brown eyeshadow, light brown eyeshadow, and blush.", "input": "bare/00004_bare_000003.jpg", "target": "makeup_05/00004_makeup_05_000003.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, black eyeliner, and brown blush.", "input": "bare/00005_bare_000004.jpg", "target": "makeup_05/00005_makeup_05_000004.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00006_bare_000006.jpg", "target": "makeup_05/00006_makeup_05_000006.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00007_bare_000007.jpg", "target": "makeup_05/00007_makeup_05_000007.jpg"}
+{"instruction": "Add black lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00008_bare_000008.jpg", "target": "makeup_05/00008_makeup_05_000008.jpg"}
+{"instruction": "add coral lipstick, brown eyeshadow, black eyeliner, and pink blush", "input": "bare/00009_bare_000010.jpg", "target": "makeup_05/00009_makeup_05_000010.jpg"}
+{"instruction": "Add brown lipstick, blue eyeshadow, black eyeliner, and yellow blush", "input": "bare/00010_bare_000011.jpg", "target": "makeup_05/00010_makeup_05_000011.jpg"}
+{"instruction": "Add black lipstick, gold eyeshadow, and pink blush", "input": "bare/00011_bare_000014.jpg", "target": "makeup_05/00011_makeup_05_000014.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00012_bare_000016.jpg", "target": "makeup_05/00012_makeup_05_000016.jpg"}
+{"instruction": "Add dark brown lipstick, light brown eyeshadow, and soft blush", "input": "bare/00013_bare_000017.jpg", "target": "makeup_05/00013_makeup_05_000017.jpg"}
+{"instruction": "add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00014_bare_000018.jpg", "target": "makeup_05/00014_makeup_05_000018.jpg"}
+{"instruction": "Apply lipstick, eyeshadow, and blush", "input": "bare/00015_bare_000019.jpg", "target": "makeup_05/00015_makeup_05_000019.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00016_bare_000020.jpg", "target": "makeup_05/00016_makeup_05_000020.jpg"}
+{"instruction": "Add red lipstick, gold eyeshadow, and brown eyeliner", "input": "bare/00017_bare_000022.jpg", "target": "makeup_05/00017_makeup_05_000022.jpg"}
+{"instruction": "Add brown eyeshadow, pink lipstick, and eyeliner", "input": "bare/00018_bare_000025.jpg", "target": "makeup_05/00018_makeup_05_000025.jpg"}
+{"instruction": "Apply black eyeliner and blue lipstick", "input": "bare/00019_bare_000027.jpg", "target": "makeup_05/00019_makeup_05_000027.jpg"}
+{"instruction": "Add a red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00021_bare_000031.jpg", "target": "makeup_05/00021_makeup_05_000031.jpg"}
+{"instruction": "Apply red lipstick, gold eyeshadow, and brown eyeliner", "input": "bare/00022_bare_000033.jpg", "target": "makeup_05/00022_makeup_05_000033.jpg"}
+{"instruction": "Apply brown eyeshadow, pink blush, and blue lipstick", "input": "bare/00023_bare_000036.jpg", "target": "makeup_05/00023_makeup_05_000036.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00024_bare_000037.jpg", "target": "makeup_05/00024_makeup_05_000037.jpg"}
+{"instruction": "Apply brown lipstick, red eyeshadow, black eyeliner, and soft blush", "input": "bare/00025_bare_000045.jpg", "target": "makeup_05/00025_makeup_05_000045.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00026_bare_000046.jpg", "target": "makeup_05/00026_makeup_05_000046.jpg"}
+{"instruction": "add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00027_bare_000049.jpg", "target": "makeup_05/00027_makeup_05_000049.jpg"}
+{"instruction": "Add red lipstick, gold eyeshadow, and black eyeliner", "input": "bare/00028_bare_000050.jpg", "target": "makeup_05/00028_makeup_05_000050.jpg"}
+{"instruction": "Apply pink lipstick, brown eyeshadow, and brown eyeliner", "input": "bare/00029_bare_000051.jpg", "target": "makeup_05/00029_makeup_05_000051.jpg"}
+{"instruction": "Apply black lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00030_bare_000052.jpg", "target": "makeup_05/00030_makeup_05_000052.jpg"}
+{"instruction": "Apply red lipstick, brown eyeshadow, and black eyeliner.", "input": "bare/00031_bare_000053.jpg", "target": "makeup_05/00031_makeup_05_000053.jpg"}
+{"instruction": "add red lipstick and pink eyeshadow", "input": "bare/00032_bare_000055.jpg", "target": "makeup_05/00032_makeup_05_000055.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00033_bare_000059.jpg", "target": "makeup_05/00033_makeup_05_000059.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00034_bare_000062.jpg", "target": "makeup_05/00034_makeup_05_000062.jpg"}
+{"instruction": "Apply red lipstick, brown eyeshadow, and pink blush.", "input": "bare/00035_bare_000065.jpg", "target": "makeup_05/00035_makeup_05_000065.jpg"}
+{"instruction": "Add a red lipstick and a blue eyeshadow", "input": "bare/00036_bare_000066.jpg", "target": "makeup_05/00036_makeup_05_000066.jpg"}
+{"instruction": "Add a light brown lipstick, light brown eyeshadow, and pink blush", "input": "bare/00037_bare_000067.jpg", "target": "makeup_05/00037_makeup_05_000067.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00038_bare_000071.jpg", "target": "makeup_05/00038_makeup_05_000071.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00039_bare_000072.jpg", "target": "makeup_05/00039_makeup_05_000072.jpg"}
+{"instruction": "Add blue lipstick, light brown eyeshadow, and soft blush", "input": "bare/00040_bare_000073.jpg", "target": "makeup_05/00040_makeup_05_000073.jpg"}
+{"instruction": "Apply red lipstick, brown eyeshadow, and brown eyeliner", "input": "bare/00041_bare_000074.jpg", "target": "makeup_05/00041_makeup_05_000074.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00042_bare_000075.jpg", "target": "makeup_05/00042_makeup_05_000075.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00043_bare_000076.jpg", "target": "makeup_05/00043_makeup_05_000076.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00044_bare_000077.jpg", "target": "makeup_05/00044_makeup_05_000077.jpg"}
+{"instruction": "Apply red lipstick, brown eyeshadow, and black eyeliner.", "input": "bare/00045_bare_000078.jpg", "target": "makeup_05/00045_makeup_05_000078.jpg"}
+{"instruction": "Add black eyeshadow and brown lipstick", "input": "bare/00046_bare_000079.jpg", "target": "makeup_05/00046_makeup_05_000079.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and pink blush", "input": "bare/00047_bare_000081.jpg", "target": "makeup_05/00047_makeup_05_000081.jpg"}
+{"instruction": "Apply red lipstick, brown eyeshadow, and gold eyeliner", "input": "bare/00048_bare_000084.jpg", "target": "makeup_05/00048_makeup_05_000084.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00049_bare_000085.jpg", "target": "makeup_05/00049_makeup_05_000085.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00050_bare_000090.jpg", "target": "makeup_05/00050_makeup_05_000090.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and light blush", "input": "bare/00051_bare_000091.jpg", "target": "makeup_05/00051_makeup_05_000091.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and pink blush", "input": "bare/00052_bare_000092.jpg", "target": "makeup_05/00052_makeup_05_000092.jpg"}
+{"instruction": "Apply blue lipstick, brown eyeshadow, and gold eyeliner", "input": "bare/00053_bare_000093.jpg", "target": "makeup_05/00053_makeup_05_000093.jpg"}
+{"instruction": "Add black lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00054_bare_000095.jpg", "target": "makeup_05/00054_makeup_05_000095.jpg"}
+{"instruction": "Add black lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00055_bare_000098.jpg", "target": "makeup_05/00055_makeup_05_000098.jpg"}
+{"instruction": "Apply red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00056_bare_000099.jpg", "target": "makeup_05/00056_makeup_05_000099.jpg"}
+{"instruction": "Apply a pink lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00057_bare_000100.jpg", "target": "makeup_05/00057_makeup_05_000100.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush.", "input": "bare/00058_bare_000101.jpg", "target": "makeup_05/00058_makeup_05_000101.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush.", "input": "bare/00059_bare_000102.jpg", "target": "makeup_05/00059_makeup_05_000102.jpg"}
+{"instruction": "Apply red lipstick, light brown eyeshadow, and soft blush", "input": "bare/00060_bare_000103.jpg", "target": "makeup_05/00060_makeup_05_000103.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00061_bare_000104.jpg", "target": "makeup_05/00061_makeup_05_000104.jpg"}
+{"instruction": "Apply brown eyeshadow, blue eyeshadow, and black eyeliner", "input": "bare/00062_bare_000107.jpg", "target": "makeup_05/00062_makeup_05_000107.jpg"}
+{"instruction": "Apply red lipstick, gold eyeshadow, and black eyeliner", "input": "bare/00063_bare_000112.jpg", "target": "makeup_05/00063_makeup_05_000112.jpg"}
+{"instruction": "Add red lipstick, gold eyeshadow, and black eyeliner", "input": "bare/00064_bare_000113.jpg", "target": "makeup_05/00064_makeup_05_000113.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and brown eyeliner.", "input": "bare/00065_bare_000114.jpg", "target": "makeup_05/00065_makeup_05_000114.jpg"}
+{"instruction": "Apply red lipstick, light brown eyeshadow, and soft blush.", "input": "bare/00066_bare_000115.jpg", "target": "makeup_05/00066_makeup_05_000115.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush.", "input": "bare/00068_bare_000119.jpg", "target": "makeup_05/00068_makeup_05_000119.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00069_bare_000128.jpg", "target": "makeup_05/00069_makeup_05_000128.jpg"}
+{"instruction": "Add a brown lipstick, light brown eyeshadow, and brown eyeliner", "input": "bare/00070_bare_000130.jpg", "target": "makeup_05/00070_makeup_05_000130.jpg"}
+{"instruction": "Add pink lipstick, brown eyeshadow, and light blush", "input": "bare/00071_bare_000131.jpg", "target": "makeup_05/00071_makeup_05_000131.jpg"}
+{"instruction": "Add red lipstick, gold eyeshadow, and black eyeliner", "input": "bare/00072_bare_000134.jpg", "target": "makeup_05/00072_makeup_05_000134.jpg"}
+{"instruction": "Add brown lipstick, brown eyeshadow, black eyeliner, and pink blush", "input": "bare/00073_bare_000135.jpg", "target": "makeup_05/00073_makeup_05_000135.jpg"}
+{"instruction": "Add pink lipstick, brown eyeshadow, and light blush", "input": "bare/00074_bare_000136.jpg", "target": "makeup_05/00074_makeup_05_000136.jpg"}
+{"instruction": "Add coral lipstick, brown eyeshadow, black eyeliner, and pink blush", "input": "bare/00075_bare_000137.jpg", "target": "makeup_05/00075_makeup_05_000137.jpg"}
+{"instruction": "add red lipstick, brown eyeshadow, and soft blush", "input": "bare/00076_bare_000140.jpg", "target": "makeup_05/00076_makeup_05_000140.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00077_bare_000141.jpg", "target": "makeup_05/00077_makeup_05_000141.jpg"}
+{"instruction": "Apply black eyeshadow and a pink blush.", "input": "bare/00078_bare_000142.jpg", "target": "makeup_05/00078_makeup_05_000142.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00079_bare_000145.jpg", "target": "makeup_05/00079_makeup_05_000145.jpg"}
+{"instruction": "Add red lipstick, light brown eyeshadow, and soft blush", "input": "bare/00080_bare_000147.jpg", "target": "makeup_05/00080_makeup_05_000147.jpg"}
+{"instruction": "Add brown lipstick, light brown eyeshadow, and soft blush.", "input": "bare/00081_bare_000148.jpg", "target": "makeup_05/00081_makeup_05_000148.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and gold eyeliner", "input": "bare/00082_bare_000149.jpg", "target": "makeup_05/00082_makeup_05_000149.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush.", "input": "bare/00083_bare_000151.jpg", "target": "makeup_05/00083_makeup_05_000151.jpg"}
+{"instruction": "Apply red lipstick, light brown eyeshadow, and soft blush", "input": "bare/00084_bare_000152.jpg", "target": "makeup_05/00084_makeup_05_000152.jpg"}
+{"instruction": "Add a pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00085_bare_000153.jpg", "target": "makeup_05/00085_makeup_05_000153.jpg"}
+{"instruction": "Apply pink lipstick, gold eyeshadow, and black eyeliner", "input": "bare/00086_bare_000155.jpg", "target": "makeup_05/00086_makeup_05_000155.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush.", "input": "bare/00087_bare_000156.jpg", "target": "makeup_05/00087_makeup_05_000156.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, black eyeliner, and white blush", "input": "bare/00088_bare_000161.jpg", "target": "makeup_05/00088_makeup_05_000161.jpg"}
+{"instruction": "Add black lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00089_bare_000162.jpg", "target": "makeup_05/00089_makeup_05_000162.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00090_bare_000166.jpg", "target": "makeup_05/00090_makeup_05_000166.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and blue eyeliner", "input": "bare/00091_bare_000167.jpg", "target": "makeup_05/00091_makeup_05_000167.jpg"}
+{"instruction": "Add a light brown eyeshadow, a red lipstick, and a gold eyeliner", "input": "bare/00092_bare_000169.jpg", "target": "makeup_05/00092_makeup_05_000169.jpg"}
+{"instruction": "Add red lipstick, brown eyeshadow, and white eyeliner", "input": "bare/00093_bare_000172.jpg", "target": "makeup_05/00093_makeup_05_000172.jpg"}
+{"instruction": "Add a white lipstick, brown eyeshadow, and black eyeliner", "input": "bare/00094_bare_000175.jpg", "target": "makeup_05/00094_makeup_05_000175.jpg"}
+{"instruction": "add red lipstick and blue eyeshadow", "input": "bare/00095_bare_000176.jpg", "target": "makeup_05/00095_makeup_05_000176.jpg"}
+{"instruction": "Add pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00096_bare_000178.jpg", "target": "makeup_05/00096_makeup_05_000178.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00097_bare_000180.jpg", "target": "makeup_05/00097_makeup_05_000180.jpg"}
+{"instruction": "Apply pink lipstick, light brown eyeshadow, and soft blush", "input": "bare/00098_bare_000181.jpg", "target": "makeup_05/00098_makeup_05_000181.jpg"}
