@@ -1,4 +1,4 @@
-# AI6132 — Generative AI for Visual Synthesis: Instruction-Based Facial Makeup Transfer
+# Instruction-Based Facial Makeup Transfer
 
 > **Course:** AI6132 – Generative AI for Visual Synthesis  
 > **Project:** Instruction-based facial makeup transfer using InstructPix2Pix, ControlNet, and Vision-Language Models
